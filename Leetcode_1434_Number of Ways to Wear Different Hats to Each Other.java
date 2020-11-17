@@ -1,3 +1,6 @@
+import java.util.List;
+import java.util.ArrayList;
+
 class Solution {
     public int numberWays(List<List<Integer>> hats) {
         int M = 1000000007;

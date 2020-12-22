@@ -8,7 +8,7 @@ class Solution {
         int zeroCount = 0;
         for(int i = 0; i<A.length; i++){
             if(A[i] == 0){
-                zeroCount++;  // move forward j, if current is 0, increase the zeroCount
+                zeroCount++;  // move forward slowPointer, if current is 0, increase the zeroCount
             }
             // when current window has more than K, the window is not valid any more
             // we need to loop the slow pointer until the current window is valid

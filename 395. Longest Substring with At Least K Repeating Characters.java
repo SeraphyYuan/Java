@@ -8,6 +8,7 @@ class Solution {
         for(int i=0; i<len; i++){
             hash[s.charAt(i)-'a']++;
         }
+        
         boolean fullString = true;
         for(int i = 0; i < len; i++){
             char c = s.charAt(i);
